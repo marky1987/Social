@@ -1,0 +1,185 @@
+body
+{
+	font-family:Arial, Helvetica, sans-serif;	
+	background-color: white;
+}
+
+a
+{
+	font-size: 12px;	
+	text-decoration: none;
+	font-weight:bold;
+	color:#000;
+}
+
+a:hover
+{
+	color:#009;
+}
+
+h1
+{
+	font-size: 22px;		
+}
+
+hr
+{
+	border: 1px solid #06C;
+	width: 600px;
+}
+
+.encabezado
+{
+	border:solid 1px black;
+	border-bottom: 0px;
+	font-weight:bold;
+}
+
+.celdatitulo
+{
+	padding-top: 	15px;
+	padding-bottom: 15px;
+}
+
+.cuerpo
+{
+	border:solid 1px black;	
+	background-color:#F0F0F0;
+}
+
+.pie
+{
+	border:solid 1px black;
+	border-top: 0px;
+	font-weight:bold;
+	height: 30px;
+
+}
+
+.botonera
+{
+	height: 25px;	
+	border-left:solid 1px black;
+	border-right:solid 1px black;
+}
+
+.boton
+{
+	background-color:#8BA9CD;
+	color:#000000;
+	font-weight:bold;
+	border: 1px solid black;
+
+}
+
+.cajatexto
+{
+	border: solid 1px black;
+}
+
+
+.formulario
+{
+	font-size: 14px;
+}
+
+.tablausuarios
+{
+	font-size:14px;	
+}
+
+#form_busqueda
+{
+	font-size:13px;
+	font-weight:bold;	
+}
+
+#sinmensajes
+{
+	font-size:16px;
+	text-align:center;
+	color:#000066;
+	font-weight: bold;
+}
+
+#mensaje_ok
+{
+	font-size:15px;
+	color: white;
+	text-align: center;
+	background-color: green;
+	padding: 5px;
+	width: 600px;
+	font-weight: bold;
+	border: black 2px solid;
+	margin-top: 4px;
+
+}
+
+#mensaje_error
+{
+	
+	font-size:15px;
+	color: white;
+	text-align: center;
+	background-color: red;
+	padding: 3px;
+	width: 600px;
+	font-weight: bold;
+	border: black 2px solid;
+
+}
+
+#contador
+{
+	font-size:18px;
+	color:#000066;
+	text-align:center;
+	padding-top: 5px;
+}
+
+#verfoto
+{
+	color: green;
+	margin-left: 8px;
+}
+
+#form_login
+{
+	padding-top: 20px;
+}
+
+#mensaje_login
+{
+	color:#F00;
+	font-size:14px;
+	font-weight:700;		
+}
+
+#saludo_encabezado
+{
+	font-size: 12px;	
+	text-decoration: none;
+	font-weight:bold;
+	color: red;	
+}
+
+#mail_envio_OK
+{
+	color: green;
+	font-size:14px;
+	font-weight:700;
+}
+
+#mail_envio_fallido
+{
+	color: red;
+	font-size:14px;
+	font-weight:700;
+}
+
+#olvido
+{
+	font-size: 14px;
+	color: green;
+}
