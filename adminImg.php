@@ -35,11 +35,11 @@
                 <h4 class="titleForm">Tu galeria del perfil y fotos privadas</h4>
    			    <table>
    			      <tr>
-   			      	<th>Fotos de la galeria</th>
+   			      	<th class="position">Fotos de la galeria</th>
    			      	<td colspan="4">estas fotos solo las pueden ver los usuarios colaboradores - esto es para asegurarse que no las vean "ojos indeseados", y por lo tanto puedas mostrar fotos que de otro modo no mostrarias publicamente en internet.</td>
    			      </tr>
    			      <tr>
-   			          <th>Fotos privadas</th>
+   			          <th class="position">Fotos privadas</th>
    			          <td colspan="4">estas fotos pueden ser "agregadas" a los mensajes que envias en el sitio - esto te permite enviar fotos "privadas" a usuarios especificos traspasar la privacidad de tu direccion de email.</td>
    			      </tr>
    			      <tr>
@@ -47,7 +47,7 @@
    			      	<td colspan="4">tu foto principal del perfil es subido directamente desde tu pagina <a href="">"Mi perfil"</a> (seleccione la foto ("examinar") y luego apreto el boton "Actualizar")</td>
    			      </tr>
    			      <tr>
-   			          <td class="position" colspan="2">Fotos atualmente en tu galeria:</td>
+   			          <th class="position" colspan="2">Fotos atualmente en tu galeria:</th>
    			      </tr>
    			      <tr>
    			              <?php
@@ -69,7 +69,7 @@
    			          <td colspan="4">No puedes agregar mas fotos a tu galeria</td>
    			      </tr>
    			      <tr>
-                      <td class="position" colspan="2">Fotos privadas actuales:</td>
+                      <th class="position" colspan="2">Fotos privadas actuales:</th>
                   </tr>
                   <tr>
                          <?php
